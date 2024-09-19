@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>eCommerce template By Adobe Dreamweaver CC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="eCommerceAssets/styles/eCommerceStyle.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="mainWrapper">
+  <header> 
+    <!-- This is the header content. It contains Logo and links -->
+    <div id="logo"> 
+      <!-- <img src="logoImage.png" alt="sample logo"> -->
+      <!-- Company Logo text -->
+<a href="anasayfa.html" class="logorenk"><img src="img/logom.png" alt="" width="120" height="120"> Palm City GYM </a></div>
+    
+  </header>
+<div>
+	  <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideWidth: 720,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$,
+                $SpacingX: 16,
+                $SpacingY: 16
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 051 css*/
+        .jssorb051 .i {position:absolute;cursor:pointer;}
+        .jssorb051 .i .b {fill:#fff;fill-opacity:0.3;}
+        .jssorb051 .i:hover .b {fill-opacity:.7;}
+        .jssorb051 .iav .b {fill-opacity: 1;}
+        .jssorb051 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/a1.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/a2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/a3.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/a4.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/a5.jpg" />
+            </div>
+            
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">animation</a>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:16px;right:16px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:12px;height:12px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:35px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:35px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+<script type="text/javascript">jssor_1_slider_init();
+    </script></div>
+  <div id="content">
+   <section class="sidebar"> 
+      <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
+      
+      <div id="menubar">
+        <nav class="menu">
+          <h2><!-- Title for menuset 1 -->HİZMETLER </h2>
+          <hr>
+          <ul>
+            <!-- List of links under menuset 1 -->
+            <li><a href="özelders.html" title="Link">ÖZEL DERSLER</a></li>
+            <li><a href="gruplar.html" title="Link">GRUPLAR</a></li>
+            <li><a href="serbest.html" title="Link">SERBEST</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="beslenme danışmanlığı.html" title="Link">BESLENME DANIŞMANLIĞI</a></li>
+          </ul>
+        </nav>
+        <nav class="menu">
+          <h2>DESTEK</h2>
+          <!-- Title for menuset 2 -->
+          <hr>
+          <ul>
+            <!--List of links under menuset 2 -->
+            <li><a href="ürünler.html" title="Link">ÜRÜNLER</a></li>
+            <li><a href="galeri.html" title="Link">GALERİ</a></li>
+            <li><a href="iletişim.html" title="Link">İLETİŞİM</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="hakkımızda.html" title="Link">HAKKIMIZDA</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="mainContent">
+<div class="productRow"> 
+        <!-- Each product row contains info of 3 elements -->
+       <div>
+	
+		   <h4 style="text-align: left">Fitness Programlarının Kişi Üzerindeki Etkileri</h4>
+
+<p class="burasirenkkk" style="text-align: left">Fazla kilolardan arınmak
+Estetik bir görünüşe sahip olmak
+Stresten arınmak
+Eğlenmek
+Esnekliği ve çevikliği artırmak
+Güç ve dayanaklılığı artırmak
+Kasları şekillendirmek ve geliştirmek
+Testesteron, ostreojen ve endorfin gibi hormonların salgılanmasına yardımcı olarak kişinin kendini psikolojik olarak daha zihinde hissetmesini sağlamak
+Metabolizma hızını artırmak
+Uykuyu düzenini sağlamak
+Kalp ve damar sistemini güçlendirmek gibi kişide olumlu etkiler yaratır.
+Uzun dönemli fitness programları uğraşanların kanser ve kalp krizine yakalanma riski düşüktür.</p><br>
+		   
+		   <h4 style="text-align: left">Dikkat edilmesi gereken konular</h4>
+		   <p class="burasirenkkk" style="text-align: left">Antrenmana başlamadan önce risklerini öğrenmek gerekir. Uygun kıyafet giyilmeli ve özellikle spor ayakkabı seçimine dikkat edilmelidir. Uzman eğitmenlerin vereceği antreman programına uyulmalıdır. Sakatlanmamak için antreman öncesi streching hareketleriyle adalenin ısınması gerekmektedir. Ağırlık egzersizinde hareketlerin nizami yapılması önemlidir. Yeni başlanıyorsa hafif bir antrenman uygulanmalı zamanla ağırlıklar arttırılmalıdır. Aksi halde yağ yakılması oldukca zorlasir.</p><br>
+		   
+		   <h4 style="text-align: left">Faydaları</h4>
+		   <p class="burasirenkkk" style="text-align: left">Fitness sporu vücutta bol bol endorfin, östrojen veya testesteron hormonu salgılanmasını sağlar. Bu da, kişinin kendisini psikolojik olarak daha iyi ve zinde hissetmesini sağlar. Vücudun forma girmesi de özgüveni arttırır. Metobolizmayı hızlandırır. Enerjiyi arttırır. Uykuyu düzenler. Psikolojik iyilişme sağlayarak stresten uzaklaştırır. Daha sağlıklı ve hızlı düşünmeyi sağlar. Kalp ve damar sistemini güçlendirir. Uzun dönemli fitness sporuyla uğraşanların kanser ve kalp krizine yakalanma riski düşüktür. Kalori yakmayı sağladığından şeker hastaları için önerilir.</p><br>
+		   
+		   <h4 style="text-align: left">Fitness Programına Yeni Başlayanların Dikkat Etmesi Gerekenler</h4>
+		   <p class="burasirenkkk" style="text-align: left">Yeni başlayanlarda adaptasyon programı denen temel çalışmalar vardır. Bunların dışına çıkılmamalı vücuda fazla yüklenilmemelidir. Fazla yüklenip erken verim alma düşüncesi kişi vücudunda sakatlık ve sorunlara yol açabilir. Düşük şiddette çalışmalar yapılmalı egzersizin şiddeti kademeli olarak artırılmalı sabırlı davranılmalıdır.</p><br>
+		   
+		   <h4 style="text-align: left">Kilo Vermede İdeal yol</h4>
+		   <p class="burasirenkkk" style="text-align: left">Kaç kilo olduğunuzla pek fazla ilgilenmemelisiniz. Esas ilgilenmeniz gereken bu kiloların ne kadarının yağ olduğudur. Spor yaparak kilo vermek istediğinizde, kilo kaybınız kas ve su kaybederek olmamalı ve aldığınız toplam kalori verdiğiniz kaloriden daha az olmalıdır. Bunun en verimli ve kalıcı yolu, günlük yaşamınızın bir parçası haline gelecek olan şu üç adımdan geçmektedir.</p><br>
+		   
+		   <h4 style="text-align: left">Yediklerinizi değiştiriniz</h4>
+		   <p class="burasirenkkk" style="text-align: left">Daha çok, meyve, sebze, tavuk eti, pirinç, patates yemeniz daha uygun olur. l gr.yağ = 9 kaloridir, l gr. karbonhidrat ya da protein = 4 kaloridir. Bazı yiyecekler için yapılan "% 95 YAĞSIZ" sloganı sizi şaşırtmasın, kalorinin ne kadarının yağdan geldiğine dikkat ediniz. 120 kalorilik bir gıda maddesinin az kalorili olduğu düşünülebilir ama 9 gr. yağ, 5 gr.protein ve 5 gr. karbonhidrat içeriyorsa, bu ürünün % 70'inin yağ olduğu anlamına gelir.
+Ayrıca gün boyunca küçük miktarlarda ve sıkça alınan öğünler, metabolizmayı hızlandırarak "Açlığa Mahkûmluk" duygusunu ortadan kaldıracaktır.
+Kaslarınızın belirli programlarla çalıştırılarak hem form ve hem de kuvvet kazanmaları, size aynı zamanda günlük yakmanız gereken kalorinin vücut tarafından daha çabuk ve kolay yakılmasını sağlar. Bu amaçla Fitness programları, sizi amacınıza ulaştıran en bilimsel ve sağlıklı yoldur. </p>
+	</div>
+</div>
+  <footer> 
+    <!-- This is the footer with default 3 divs -->
+    <div>
+      <h4>LOKASYON</h4>
+      <p>Cengiz Topel Mahallesi, Özden sokak 14/1 Erdemli, Mersin<br>
+
+telefon: (0324)123 45 67<br>
+
+e-posta:info@palmcitygym.mersin</p>
+    </div>
+    <div>
+      <b><p style="text-align: center"> PALM</p><br></b>
+		<b><p style="text-align: center"> CITY </p><br></b>
+		<b><p style="text-align: center"> GYM</p></b>
+    </div>
+    <div class="footerlinks">
+      <p><a href= "https://twitter.com/esmaek3" title="Link"><img src="img/twitter.png" alt="" width="45" height="40" style="border-radius: 10px;"> </a></p>
+      <p><a href="https://www.instagram.com/accounts/login/?next=/medseapalm/" title="Link"><img src="img/instagram.png" alt="" width="45" height="40" style="border-radius: 10px;"></a></p>
+      <p><a href="https://www.youtube.com/c/ChloeTing" title="Link"><img src="img/youtube.png" alt="" width="45" height="40" style="border-radius: 10px;"></a></p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

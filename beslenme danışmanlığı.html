@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>eCommerce template By Adobe Dreamweaver CC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="eCommerceAssets/styles/eCommerceStyle.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="mainWrapper">
+  <header> 
+    <!-- This is the header content. It contains Logo and links -->
+    <div id="logo"> <!-- <img src="logoImage.png" alt="sample logo"> --> 
+      <!-- Company Logo text --> 
+      <a href="anasayfa.html" class="logorenk"><img src="img/logom.png" alt="" width="120" height="120"> Palm City GYM </a></div>
+  </header>
+  <div>
+	  <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideWidth: 720,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$,
+                $SpacingX: 16,
+                $SpacingY: 16
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 051 css*/
+        .jssorb051 .i {position:absolute;cursor:pointer;}
+        .jssorb051 .i .b {fill:#fff;fill-opacity:0.3;}
+        .jssorb051 .i:hover .b {fill-opacity:.7;}
+        .jssorb051 .iav .b {fill-opacity: 1;}
+        .jssorb051 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/c1.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c3.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c4.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c5.jpg" />
+            </div>
+			<div>
+                <img data-u="image" src="img/c6.jpg" />
+            </div>
+            
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">animation</a>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:16px;right:16px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:12px;height:12px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:35px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:35px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+<script type="text/javascript">jssor_1_slider_init();
+    </script></div>
+  <div id="content">
+    <section class="sidebar"> 
+      <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
+      
+      <div id="menubar">
+        <nav class="menu">
+          <h2><!-- Title for menuset 1 -->HİZMETLER </h2>
+          <hr>
+          <ul>
+            <!-- List of links under menuset 1 -->
+            <li><a href="özelders.html" title="Link">ÖZEL DERSLER</a></li>
+            <li><a href="gruplar.html" title="Link">GRUPLAR</a></li>
+            <li><a href="serbest.html" title="Link">SERBEST</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="beslenme danışmanlığı.html" title="Link">BESLENME DANIŞMANLIĞI</a></li>
+          </ul>
+        </nav>
+        <nav class="menu">
+          <h2>DESTEK</h2>
+          <!-- Title for menuset 2 -->
+          <hr>
+          <ul>
+            <!--List of links under menuset 2 -->
+            <li><a href="ürünler.html" title="Link">ÜRÜNLER</a></li>
+            <li><a href="galeri.html" title="Link">GALERİ</a></li>
+            <li><a href="iletişim.html" title="Link">İLETİŞİM</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="hakkımızda.html" title="Link">HAKKIMIZDA</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="mainContent">
+      <div class="productRow"><!-- Each product row contains info of 3 elements -->
+        
+		  <p class="burasirenkkk"> Beslenme danışmanlığı;Diyetisyen eşliğinde vücut analizleri vücut analiz cihazı ile yapılmaktadır. Ancak bazı istisnai durumlarda vücut analizleri yapılmaması tercih edilmektedir. Bu durumlar; danışanda kalp pili takılı olması, hamilelik, uzuv eksikliği durumu, vücudunun herhangi bir yerinde platin takılı olmasıdır. Vücut analizinin en doğru sonucu verebilmesi için ise; son iki saattir aç olmak, kabızlık durumu yaşamıyor olmak, bir gün öncesinde aşırı kafein veya alkol almamış olmak, kadınlarda adet döneminde bulunmuyor olmak gerekmektedir.</p>
+        
+        
+		  <div>
+			  <h4 style="text-align: left">Beslenme danışmanlığı hangi durumlar için verilebilir?</h4>
+			  <p class="burasirenkkk" style="text-align: left">Beslenme danışmanlığı hizmeti verilebilen durumlar;</p><br>
+
+<li style="text-align: left">Sağlıklı kilo verme</li>
+<li style="text-align: left">Sağlıklı kilo alma</li>
+<li style="text-align: left">Sağlıklı kilo koruma</li>
+<li style="text-align: left">Gebelik sürecinde beslenme</li>
+<li style="text-align: left">Doğum sonrası beslenme</li>
+<li style="text-align: left">Çocukluk dönemi beslenmesi</li>
+<li style="text-align: left">Hastalık durumlarında beslenme</li>
+<li style="text-align: left">Sporcu beslenmesi</li>
+<li style="text-align: left">Sporcu beslenmesi</li>
+<li style="text-align: left">Sporcu beslenmesi</li>&nbsp;
+
+		  </div>
+        
+		  <h4 style="text-align: left">Sağlıklı Kilo Vermek İçin Beslenme Danışmanlığ</h4>
+		  <p class="burasirenkkk" style="text-align: left">Sağlıklı kilo vermek amacıyla beslenme danışmanlığında ilk aşamada neden kilo alındığı, sonrasında ise kilo vermekte önünüzdeki zorluklar belirlenir. Daha önce kilo verme deneyimlerinde sonuç alamamanızın nedenleri ayrıntılı görüşüldükten sonra yapılan vücut analizlerinize göre bireysel beslenme listeniz hazırlanır. Diyetisyeniniz ve sizin belirleyeceğiniz seans aralıkları ile her bir haftanın kontrolü ve yine aynı şekilde analizleri ile beslenme listelerinize diyetisyeniniz tarafından size en uygun ve evrimli olacak şekilde yenilikler yapılır.</p>
+      </div>
+      <div class="productRow">
+		  <h4 style="text-align: left">Sağlıklı Kilo Almak İçin Beslenme Danışmanlığ</h4>
+		  <p class="burasirenkkk" style="text-align: left">Pek çok insan beslenme uzmanlarına yalnızca memnun olunmayan kiloları vermek için gidildiğini düşünmektedir. Bu oldukça yanlış bir düşüncedir. Kilo vermek kadar kilo almakta bir diyetisyen takibinde olmalıdır. Yanlış beslenme rutinleri ile alınan kilolar insan sağlığını tehdit etmekte pek çok hastalığa neden olabilmektedir. Bu noktada bireyin ihtiyaçlarına göre ideal kilosuna ulaşması, yağ-protein-karbonhidrat düzeyinin ideal düzeylerde olmasını sağlamak amacıyla kişiye en uygun beslenme listeleri hazırlanmaktadır.</p>
+
+<h4 style="text-align: left">Sağlıklı Kilo Koruma</h4>
+		  <p class="burasirenkkk" style="text-align: left">
+Memnun olmadığı kilolarından kurtulan pek çok kişi, belli bir süre yine almakta ve eski memnuniyetsiz haline dönebilmektedir. Kilo vermek kadar mevcut kilonun korunması da oldukça önemlidir. Verdiği kiloları tekrar alan kişiler yeni bir diyete başladığında bu kez daha umutsuz ve düşük motivasyonlu olabilmektedirler. Bu olumsuzlukların önüne geçebilmek adına kilo vermenin ardından kilo koruma sürecinde de uzman diyetisyen eşliğinde beslenme planı oluşturulması önerilmektedir.</p>
+		  
+<h4 style="text-align: left">Gebelik Sürecinde Beslenme</h4>
+<p class="burasirenkkk" style="text-align: left">
+Kadınlar için oldukça hassas olan bu dönemde anne ve bebeğin sağlığı için en uygun olan beslenme planının diyetisyen eşliğinde yapılması gebelik sürecinde beslenme danışmanlığıdır. Öncelikle olarak bu süreçte dikkat edilmesi gereken beslenme şekli, yenilmemesi gereken besinler ile anneye beslenme hakkında bilgilendirme yapılarak sonrasında anneye ve bebeğe en uygun beslenme planı oluşturulmaktadır.</p>
+
+		  <h4 style="text-align: left">Doğum Sonrası Beslenme</h4>
+<p class="burasirenkkk" style="text-align: left">
+Hamilelik süreci kadar doğumdan sonraki süreçte de annelerin beslenme düzenlerini dikkat etmeleri oldukça önemlidir. Doğum sonrası dönemde de tıpkı hamilelik döneminde olduğu gibi anne ve bebek arasındaki bağ korunmaktadır. Bu dönemde anne bebeği emzirdiği için, aldığı besinler bebeğine de etki etmektedir. Gebelik döneminde olduğu gibi bu dönemde de diyetisyen eşliğinde anne ve bebeğe en uygun beslenme planı oluşturularak, düzenli aralıklarla seanslar yapılarak gerekli kontroller sağlanmış olur.<p/>
+
+<p class="burasirenkkk" style="text-align: left">Çocukluk Döneminde Beslenme Danışmanlığı
+Bireyin en hızlı gelişim gösterdiği dönem çocukluk dönemidir. Bu dönemde çocuğun fiziksel ve zihinsel gelişimi aldığı besinlerle desteklenerek paralel şekilde ilerleme göstermektedir. Çocuğun bedensel ve zihinsel gelişimini olumlu yönde destekleyecek ve aynı zamanda küçük yaşlardan itibaren sağlıklı beslenme rutinlerine alıştırmak için diyetisyenler tarafından, çocukluk dönemi beslenme danışmanlığı hizmeti verilmektedir.</p>
+
+		  <h4 style=text-align:left>Hastalık Durumlarında Beslenme Danışmanlığı</h4>
+<p class="burasirenkkk" style="text-align: left">
+Kalp damar hastalıkları, diyabet, insülin direnci, reaktif hipoglisemi, hipertansiyon, böbrek ve karaciğer hastalıkları, sindirim sistemi hastalıkları veya depresyon durumlarında her bir hastalıktan kaynaklanan kişinin ihtiyaç duyduğu veya yememesi gereken besinler değişkenlik göstermektedir. Bu durumda diyetisyenler tarafından kişiye ve kişinin hastalığın gereklerine yönelik özel beslenme programı hazırlanmaktadır.</p>
+
+<h4 style="text-align: left">Sporcu Beslenmesi</h4>
+		  <p class="burasirenkkk" style="text-align: left">
+Yapılan sportif etkinliklerin türüne göre beslenme öncelikleri farklı olabilmektedir. Sporcularda beslenme danışmanlığı başvuru yapan kişinin özelliklerine, yaptığı sporun türü ve gereklerine, müsabaka öncesi ve sonrası döneme göre şekillenmektedir.
+Menopoz Döneminde Beslenme Danışmanlığı
+Menopoz döneminde kadınlarda vücut yağ depolamaya müsait hale gelmekte ve kemik yoğunluğunda azalma meydana gelmektedir. Bu durumların olası olumsuz etkilerini önlemek adına verilen beslenme danışmanlığı “menopoz döneminde beslenme danışmanlığı” dır.</p>
+        
+      </div>
+    </section>
+  </div>
+  <footer> 
+    <!-- This is the footer with default 3 divs -->
+    <div>
+      <h4>LOKASYON</h4>
+      <p>Cengiz Topel Mahallesi, Özden sokak 14/1 Erdemli, Mersin<br>
+
+telefon: (0324)123 45 67<br>
+
+e-posta:info@palmcitygym.mersin</p>
+    </div>
+    <div>
+      <b><p style="text-align: center"> PALM</p><br></b>
+		<b><p style="text-align: center"> CITY </p><br></b>
+		<b><p style="text-align: center"> GYM</p></b>
+    </div>
+    <div class="footerlinks">
+      <p><a href= "https://twitter.com/esmaek3" title="Link"><img src="img/twitter.png" alt="" width="45" height="40" style="border-radius: 10px;"> </a></p>
+      <p><a href="https://www.instagram.com/accounts/login/?next=/medseapalm/" title="Link"><img src="img/instagram.png" alt="" width="45" height="40" style="border-radius: 10px;"></a></p>
+      <p><a href="https://www.youtube.com/c/ChloeTing" title="Link"><img src="img/youtube.png" alt="" width="45" height="40" style="border-radius: 10px;"></a></p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
